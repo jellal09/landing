@@ -273,7 +273,7 @@ a:focus {
     width: 100%;
     margin-bottom: 45px;
     padding: 90px 0;
-    background: #F7CAC9;
+    background: #F2BE22;
     overflow: hidden;
 }
 
@@ -301,15 +301,15 @@ a:focus {
 }
 
 .hero .hero-text h1 {
-    color: #343148;
+    color: #ffffff;
     font-size: 60px;
     font-weight: 700;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .hero .hero-text p {
-    color: #343148;
-    font-size: 18px;
+    color: #ffffff;
+    font-size: 25px;
     margin-bottom: 25px;
 }
 
@@ -318,14 +318,14 @@ a:focus {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #F7CAC9;
-    background: #343148;
+    color: #ffffff;
+    background: #22A699;
     border-radius: 0;
     transition: .3s;
 }
 
 .hero .hero-btn .btn:hover {
-    color: #343148;
+    color: #22A699;
     background: #ffffff;
 }
 
