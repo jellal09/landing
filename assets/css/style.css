@@ -589,6 +589,29 @@ a:focus {
     z-index: 3;
 }
 
+.service .layanan img {
+    position: relative;
+    height: 70px;
+    width: 70px;
+    margin-bottom: 36px;
+}
+
+.service .layanan-item {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, .07);
+    transition: .3s;
+}
+
+.service .layanan-item:hover,
+.service .layanan-item.active {
+    background: #22A699;
+    color: #ffffff;
+}
+
 /* .service .service-icon:before {
     content: "";
     position: absolute;
@@ -643,6 +666,23 @@ a:focus {
 }
 
 .service .service-item p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.service .layanan-item h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.service .layanan-item:hover h3,
+.service .layanan-item.active h3 {
+    color: #ffffff;
+}
+
+.service .layanan-item p {
     margin: 0;
     font-size: 16px;
 }
