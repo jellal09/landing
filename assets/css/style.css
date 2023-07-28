@@ -1950,10 +1950,10 @@ a:focus {
 
 .footer .container-fluid {
     padding: 90px 0 0 0;
-    background: linear-gradient(rgba(34, 166, 153, .9), rgba(34, 166, 153, .9)), url(../img/footer-bg.png);
+    background: linear-gradient(rgba(34, 166, 153, .9), rgba(34, 166, 153, .9)), url(../img/bintara-tni.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
 }
 
 .footer .footer-info {
