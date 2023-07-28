@@ -41,10 +41,10 @@ a:focus {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #F7CAC9;
+    background: #F2BE22;
     width: 44px;
     height: 44px;
-    text-align: center;
+    text-align: center; 
     line-height: 1;
     font-size: 22px;
     right: 15px;
@@ -54,15 +54,15 @@ a:focus {
 }
 
 .back-to-top:hover {
-    background: #343148;
+    background: #22A699;
 }
 
 .back-to-top:hover i {
-    color: #F7CAC9;
+    color: #F2BE22;
 }
 
 .back-to-top i {
-    color: #343148;
+    color: #22A699;
     padding-top: 10px;
 }
 
@@ -666,8 +666,21 @@ a:focus {
 }
 
 .service .service-item p {
-    margin: 0;
+    margin-bottom: 25px;
     font-size: 16px;
+}
+
+.service .service-item a {
+    /* margin-bottom: 10px; */
+    background-color: #22A699;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.service .service-item a:hover {
+    background-color: #ffffff;
+    color: #797979;
 }
 
 .service .layanan-item h3 {
@@ -1938,7 +1951,7 @@ a:focus {
 
 .footer .container-fluid {
     padding: 90px 0 0 0;
-    background: linear-gradient(rgba(52, 49, 72, .9), rgba(52, 49, 72, .9)), url(../img/footer-bg.png);
+    background: linear-gradient(rgba(34, 166, 153, .9), rgba(34, 166, 153, .9)), url(../img/footer-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
