@@ -1340,16 +1340,16 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #F7CAC9;
-    background: #343148;
+    color: #F2BE22;
+    background: #22A699;
     font-size: 22px;
     transition: .3s;
 }
 
 .blog .owl-nav .owl-prev:hover,
 .blog .owl-nav .owl-next:hover {
-    color: #343148;
-    background: #F7CAC9;
+    color: #22A699;
+    background: #F2BE22;
 }
 
 .blog .pagination .page-link {
