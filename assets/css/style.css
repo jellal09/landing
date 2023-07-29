@@ -1266,7 +1266,7 @@ a:focus {
 
 .blog .blog-img {
     position: relative;
-    width: 100px;
+    width: 100%;
 }
 
 .blog .blog-img img {
