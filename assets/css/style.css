@@ -1208,11 +1208,11 @@ a:focus {
 }
 
 .testimonial .owl-item.center .testimonial-text {
-    background: #343148;
+    background: #22A699;
 }
 
 .testimonial .owl-item.center .testimonial-text h3 {
-    color: #F7CAC9;
+    color: #ffffff;
 }
 
 .testimonial .owl-item.center .testimonial-text p,
@@ -1231,11 +1231,11 @@ a:focus {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: #F7CAC9;
+    background: #797979;
 }
 
 .testimonial .owl-dot.active {
-    background: #343148;
+    background: #22A699;
 }
 
 
